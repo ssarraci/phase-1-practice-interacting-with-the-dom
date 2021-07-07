@@ -39,7 +39,7 @@ const arr = []
                 counter: b,
                 i: 1
             }
-            arr.push(pbjcounter)
+            arr.push(objcounter)
         }
         const createLi = document.createElement('li')
         createLi.innerHTML = `${b} has been liked ${objcounter.i} times` 
